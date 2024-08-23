@@ -1,0 +1,22 @@
+{
+  "name": "jelly-spinel-beans",
+  "displayName": "Jelly Spinel Beans",
+  "description": "A blend of the Dark Spinel Theme and Jellybeans Theme.",
+  "publisher": "tanmaydot",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jelly Spinel Beans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jelly-spinel-beans-color-theme.json"
+      }
+    ]
+  }
+}
