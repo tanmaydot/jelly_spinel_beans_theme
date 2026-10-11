@@ -6,17 +6,32 @@
   "version": "0.1.0",
   "license": "MIT",
   "icon": "icon.png",
-  "repository": { "type": "git", "url": "https://github.com/tanmaydot/jelly_spinel_beans_theme.git" },
-  "keywords": ["theme", "dark", "ruby", "jellybeans"],
-  "galleryBanner": { "color": "#1e2327", "theme": "dark" },
-  "engines": { "vscode": "^1.90.0" },
-  "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tanmaydot/jelly_spinel_beans_theme.git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "ruby",
+    "jellybeans"
+  ],
+  "galleryBanner": {
+    "color": "#1e2327",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
   "contributes": {
     "themes": [
       {
         "label": "Jelly Spinel Beans",
         "uiTheme": "vs-dark",
-        "path": "./themes/jelly-spinel-beans-color-theme.json"
+        "path": "./theme/jelly-spinel-beans-color-theme.json"
       }
     ]
   }
