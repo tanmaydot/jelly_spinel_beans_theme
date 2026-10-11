@@ -1,15 +1,16 @@
 {
   "name": "jelly-spinel-beans",
   "displayName": "Jelly Spinel Beans",
-  "description": "A blend of the Dark Spinel Theme and Jellybeans Theme.",
+  "description": "A dark theme blending Jellybeans and Shopify Ruby.",
   "publisher": "tanmaydot",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.92.0"
-  },
-  "categories": [
-    "Themes"
-  ],
+  "version": "0.1.0",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": { "type": "git", "url": "https://github.com/tanmaydot/jelly_spinel_beans_theme.git" },
+  "keywords": ["theme", "dark", "ruby", "jellybeans"],
+  "galleryBanner": { "color": "#1e2327", "theme": "dark" },
+  "engines": { "vscode": "^1.90.0" },
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
